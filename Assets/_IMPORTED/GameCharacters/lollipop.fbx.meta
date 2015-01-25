@@ -1,61 +1,28 @@
 fileFormatVersion: 2
-guid: f3607ad56875040769faa48ea319870f
+guid: 822712baa5b1c4d55a57e6adc024e881
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: ankle1
-    100002: ankle2
-    100004: back
-    100006: back1
-    100008: dinosaur1
-    100010: hip1
-    100012: hip2
-    100014: jaw
-    100016: jaw1
-    100018: jaw2
-    100020: knee1
-    100022: knee2
-    100024: leftAnkle
-    100026: neck1
-    100028: pelvis
-    100030: rightAnkle
-    100032: tail
-    100034: tail1
-    100036: tail2
-    100038: tail3
-    100040: //RootNode
-    400000: ankle1
-    400002: ankle2
-    400004: back
-    400006: back1
-    400008: dinosaur1
-    400010: hip1
-    400012: hip2
-    400014: jaw
-    400016: jaw1
-    400018: jaw2
-    400020: knee1
-    400022: knee2
-    400024: leftAnkle
-    400026: neck1
-    400028: pelvis
-    400030: rightAnkle
-    400032: tail
-    400034: tail1
-    400036: tail2
-    400038: tail3
-    400040: //RootNode
-    4300000: dinosaur1
-    7400000: Take 001
+    100000: //RootNode
+    100002: pCylinder1
+    100004: pSphere1
+    400000: //RootNode
+    400002: pCylinder1
+    400004: pSphere1
+    2300000: pCylinder1
+    2300002: pSphere1
+    3300000: pCylinder1
+    3300002: pSphere1
+    4300000: pCylinder1
+    4300002: pSphere1
     9500000: //RootNode
-    13700000: dinosaur1
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
   animations:
     legacyGenerateAnimations: 4
-    bakeSimulation: 1
+    bakeSimulation: 0
     optimizeGameObjects: 0
     motionNodeName: 
     animationCompression: 1

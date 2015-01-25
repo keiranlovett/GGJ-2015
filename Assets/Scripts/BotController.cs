@@ -151,11 +151,11 @@ public class BotController : MonoBehaviour {
 					if(tm==null || tm.teamID==0 || myTm==null || myTm.teamID==0 || tm.teamID != myTm.teamID ) {
 						h.GetComponent<PhotonView>().RPC ("TakeDamage", PhotonTargets.AllBuffered, 100f);
 					}
-					//go back to patrolling
-					agentMode = AIMode.NextWP;
 				}
 
 			}
+		//go back to patrolling
+		agentMode = AIMode.NextWP;
 		}
 	}
 
