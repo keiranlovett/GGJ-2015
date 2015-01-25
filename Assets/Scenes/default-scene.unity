@@ -506,6 +506,8 @@ MonoBehaviour:
   standbyCamera: {fileID: 1886455921}
   offlineMode: 0
   respawnTimer: 0
+  ScoreCounter: 0
+  gameMode: 
 --- !u!114 &114722344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1693,7 +1695,7 @@ AudioSource:
   serializedVersion: 3
   m_audioClip: {fileID: 8300000, guid: 17f33695691ce3b4e9a02e85534f3840, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: .600000024
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6987,6 +6989,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4efb068545e1f6c42987a5860391fc2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aggroRange: 40
   agentMonster: {fileID: 0}
   targetWaypoint: {x: 0, y: 0, z: 0}
 --- !u!114 &1049640452
@@ -10137,6 +10140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4efb068545e1f6c42987a5860391fc2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aggroRange: 40
   agentMonster: {fileID: 0}
   targetWaypoint: {x: 0, y: 0, z: 0}
 --- !u!114 &1322249888
