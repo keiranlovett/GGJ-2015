@@ -1,0 +1,80 @@
+fileFormatVersion: 2
+guid: cec77a3075ece4b38a09d9e2fec22691
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Lamp
+    100002: Lamp.001
+    100004: Lamp.002
+    100006: Lamp.003
+    100008: Lamp.004
+    100010: Lamp.006
+    100012: //RootNode
+    100014: Plane
+    400000: Lamp
+    400002: Lamp.001
+    400004: Lamp.002
+    400006: Lamp.003
+    400008: Lamp.004
+    400010: Lamp.006
+    400012: //RootNode
+    400014: Plane
+    2300000: Plane
+    3300000: Plane
+    4300000: Plane
+    6400000: Plane
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 1
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 1
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
