@@ -24,7 +24,8 @@ public class SessionSetup : MonoBehaviour
 
     public static readonly string SceneNameGame = "default-scene";
 
-    public static string gameLevel;
+    public static string gameLevel = "default-scene";
+
 
     private static float maxPlayers = 3;
     private static float aiAggression = 50;

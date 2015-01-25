@@ -101,6 +101,10 @@ public class NetworkManager : MonoBehaviour {
 
 	void OnGUI() {
 
+if(Input.GetButton("Cancel")){
+Application.LoadLevel (0);
+}
+
 //		gameMode = (string)PhotonNetwork.room.customProperties["seed"];
 
 		//If press ESCAPE
