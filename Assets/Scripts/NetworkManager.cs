@@ -47,7 +47,9 @@ public class NetworkManager : MonoBehaviour {
 		spawnSpots = GameObject.FindObjectsOfType<SpawnSpot>();
 		PhotonNetwork.player.name = PlayerPrefs.GetString("Username", "Awesome Dude");
 		chatMessages = new List<string>();
+		if(PhotonNetwork.playerList.Length < 2) {
 		SpawnMonster();
+		}
 		ScoreCounter = PhotonNetwork.playerList.Length;
 	}
 
