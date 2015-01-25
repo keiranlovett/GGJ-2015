@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections.Generic;
 using PhotonHashtable = ExitGames.Client.Photon.Hashtable;
 using SystemHashtable = System.Collections.Hashtable;
@@ -23,9 +24,9 @@ public class NetworkManager : MonoBehaviour {
 
 	public float respawnTimer = 0;
 	public int ScoreCounter = 0;
-
-
-	public string gameMode;
+	public GameObject guiBipod;
+	public GameObject guiGod;
+	public Text guiScore;
 
 	bool hasPickedTeam = false;
 	int teamID=0;
@@ -51,6 +52,7 @@ public class NetworkManager : MonoBehaviour {
 		SpawnMonster();
 		}
 		ScoreCounter = PhotonNetwork.playerList.Length;
+		guiScore.text = ScoreCounter + "";
 	}
 
 	void OnDestroy() {
@@ -77,7 +79,7 @@ public class NetworkManager : MonoBehaviour {
 
 	void OnGUI() {
 
-		gameMode = (string)PhotonNetwork.room.customProperties["seed"];
+//		gameMode = (string)PhotonNetwork.room.customProperties["seed"];
 
 		//Setup all player properties
 		PhotonHashtable setPlayerTeam = new PhotonHashtable() {{"TeamName", "Spectators"}};
@@ -89,7 +91,7 @@ public class NetworkManager : MonoBehaviour {
 		PhotonHashtable setPlayerDeaths = new PhotonHashtable() {{"Deaths", 0}};
 		PhotonNetwork.player.SetCustomProperties(setPlayerDeaths);
 		//If press ESCAPE
-		if (GUILayout.Button("Return to Lobby" + gameMode))
+		if (GUILayout.Button("Return to Lobby"))
         {
             PhotonNetwork.LeaveRoom();  // we will load the menu level when we successfully left the room
         }
@@ -189,6 +191,9 @@ SpawnPlayer(1);
 		myPlayerGO.GetComponent<PhotonView>().RPC ("SetTeamID", PhotonTargets.AllBuffered, teamID);
 
 		myPlayerGO.transform.FindChild("Main Camera").gameObject.SetActive(true);
+
+		guiBipod.SetActive(true);
+
 	}
 
 	void SpawnMonster() {
@@ -218,6 +223,8 @@ SpawnPlayer(1);
 
 		myGodGO.GetComponent<PhotonView>().RPC ("SetTeamID", PhotonTargets.AllBuffered, teamID);
 
+		guiBipod.SetActive(false);
+		guiGod.SetActive(true);
 	}
 
 	void Update() {
@@ -229,6 +236,7 @@ SpawnPlayer(1);
 				SpawnGod(teamID);
 
 				ScoreCounter--;
+				guiScore.text = ScoreCounter + "";
 			}
 		}
 
