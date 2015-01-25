@@ -24,6 +24,7 @@ public class SessionSetup : MonoBehaviour
 
     public static readonly string SceneNameGame = "default-scene";
 
+    public static string gameLevel;
 
     private static float maxPlayers = 3;
     private static float aiAggression = 50;
@@ -179,10 +180,16 @@ public class SessionSetup : MonoBehaviour
         Debug.Log("OnPhotonRandomJoinFailed got called. Happens if no room is available (or all full or invisible or closed). JoinrRandom filter-options can limit available rooms.");
     }
 
+    public void OnSetRoom(string name)
+    {
+        gameLevel = name;
+        //customRoomProperties.Add("pc", name);
+    }
+
     public void OnCreatedRoom()
     {
         Debug.Log("OnCreatedRoom");
-        PhotonNetwork.LoadLevel(SceneNameGame);
+        PhotonNetwork.LoadLevel(gameLevel);
     }
 
     public void OnDisconnectedFromPhoton()
