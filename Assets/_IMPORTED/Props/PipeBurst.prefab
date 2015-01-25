@@ -10,6 +10,7 @@ GameObject:
   - 4: {fileID: 466622}
   - 198: {fileID: 19866622}
   - 199: {fileID: 19966622}
+  - 82: {fileID: 8252446}
   m_Layer: 0
   m_Name: PipeBurst
   m_TagString: Untagged
@@ -29,6 +30,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!82 &8252446
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166622}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_audioClip: {fileID: 8300000, guid: 01a3ad5692fbe4993adaf44c82967400, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 6
+  Pan2D: 0
+  rolloffMode: 2
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: .166666672
+      value: 1
+      inSlope: -6.00239468
+      outSlope: -6.00239468
+      tangentMode: 0
+    - time: .333333343
+      value: .5
+      inSlope: -1.50059867
+      outSlope: -1.50059867
+      tangentMode: 0
+    - time: .64203614
+      value: .177152321
+      inSlope: -.375149667
+      outSlope: -.375149667
+      tangentMode: 0
+    - time: 1
+      value: 0
+      inSlope: -.166733205
+      outSlope: -.166733205
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!198 &19866622
 ParticleSystem:
   m_ObjectHideFlags: 1
