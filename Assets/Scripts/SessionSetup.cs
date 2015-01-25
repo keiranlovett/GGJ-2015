@@ -62,6 +62,7 @@ public class SessionSetup : MonoBehaviour
 
     public void Awake()
     {
+        Screen.showCursor = true;
         // this makes sure we can use PhotonNetwork.LoadLevel() on the master client and all clients in the same room sync their level automatically
         PhotonNetwork.automaticallySyncScene = true;
 

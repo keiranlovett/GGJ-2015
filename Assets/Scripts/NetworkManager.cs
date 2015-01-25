@@ -38,6 +38,7 @@ public class NetworkManager : MonoBehaviour {
 
 	public void Awake()
     {
+    	Screen.showCursor = false;
         // in case we started this demo with the wrong scene being active, simply load the menu scene
         if (!PhotonNetwork.connected)
         {
