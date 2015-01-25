@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 using System.Collections.Generic;
 using PhotonHashtable = ExitGames.Client.Photon.Hashtable;
 using SystemHashtable = System.Collections.Hashtable;
@@ -11,6 +12,9 @@ public class NetworkManager : MonoBehaviour {
 	public Waypoint botSpawnWaypoint;
 	// END OF TESTING
 
+	public int time = 60;
+
+    public Text instruction;
 
 	public GameObject standbyCamera;
 	SpawnSpot[] spawnSpots;
@@ -42,17 +46,35 @@ public class NetworkManager : MonoBehaviour {
         }
     }
 
+	public void startCountdown() {
+        StartCoroutine (countdown ());
+        Debug.Log ("YES TIMER START!");
+    }
+
+    IEnumerator countdown() {
+        while (time > 0) {
+            Debug.Log ("TIMER countdown  time = " + time + " and instruction = " + instruction);
+            yield return new WaitForSeconds(1);
+
+            instruction.text = time.ToString();
+
+            time -= 1;
+        }
+    }
 
 	// Use this for initialization
 	void Start () {
+
 		spawnSpots = GameObject.FindObjectsOfType<SpawnSpot>();
 		PhotonNetwork.player.name = PlayerPrefs.GetString("Username", "Awesome Dude");
 		chatMessages = new List<string>();
+
 		if(PhotonNetwork.playerList.Length < 2) {
-		SpawnMonster();
+			SpawnMonster();
 		}
 		ScoreCounter = PhotonNetwork.playerList.Length;
 		guiScore.text = ScoreCounter + "";
+
 	}
 
 	void OnDestroy() {
@@ -81,25 +103,13 @@ public class NetworkManager : MonoBehaviour {
 
 //		gameMode = (string)PhotonNetwork.room.customProperties["seed"];
 
-		//Setup all player properties
-		PhotonHashtable setPlayerTeam = new PhotonHashtable() {{"TeamName", "Spectators"}};
-		PhotonNetwork.player.SetCustomProperties(setPlayerTeam);
-
-		PhotonHashtable setPlayerKills = new PhotonHashtable() {{"Kills", 0}};
-		PhotonNetwork.player.SetCustomProperties(setPlayerKills);
-
-		PhotonHashtable setPlayerDeaths = new PhotonHashtable() {{"Deaths", 0}};
-		PhotonNetwork.player.SetCustomProperties(setPlayerDeaths);
 		//If press ESCAPE
 		if (GUILayout.Button("Return to Lobby"))
         {
             PhotonNetwork.LeaveRoom();  // we will load the menu level when we successfully left the room
         }
 
-
 		GUILayout.Label( PhotonNetwork.connectionStateDetailed.ToString() );
-
-
 
 		if(PhotonNetwork.connected == true && connecting == false) {
 			if(hasPickedTeam) {
@@ -116,38 +126,8 @@ public class NetworkManager : MonoBehaviour {
 				GUILayout.EndArea();
 			}
 			else {
-				// Player has not yet selected a team.
-SpawnPlayer(1);
-
-			/*	GUILayout.BeginArea( new Rect(0, 0, Screen.width, Screen.height) );
-				GUILayout.BeginHorizontal();
-				GUILayout.FlexibleSpace();
-				GUILayout.BeginVertical();
-				GUILayout.FlexibleSpace();
-
-				if( GUILayout.Button("Red Team") ) {
-					SpawnPlayer(1);
-				}
-
-				if( GUILayout.Button("Green Team") ) {
-					SpawnPlayer(2);
-				}
-
-				if( GUILayout.Button("God") ) {
-					SpawnPlayer();	// 1 or 2
-					SpawnGod(0);
-				}
-
-				if( GUILayout.Button("Renegade!") ) {
-					SpawnPlayer(0);
-				}
-
-				GUILayout.FlexibleSpace();
-				GUILayout.EndVertical();
-				GUILayout.FlexibleSpace();
-				GUILayout.EndHorizontal();
-				GUILayout.EndArea();*/
-
+				SpawnPlayer(1);
+											startCountdown();
 
 			}
 
@@ -241,11 +221,11 @@ SpawnPlayer(1);
 		}
 
 		if(ScoreCounter <= 0) {
-			doGameOver();
+			doGameOver(false);
 		}
 	}
 
-public void doGameOver(){
+public void doGameOver(bool win){
 
 }
 
