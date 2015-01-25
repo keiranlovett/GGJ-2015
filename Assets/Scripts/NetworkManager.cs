@@ -177,12 +177,12 @@ public class NetworkManager : MonoBehaviour {
 	}
 
 	void SpawnMonster() {
-		GameObject botCount = GameObject.FindGameObjectWithTag("Bot");
-		if (botCount == null) {
+		//GameObject botCount = GameObject.FindGameObjectWithTag("Bot");
+		//if (botCount == null) {
 			GameObject botGO = (GameObject)PhotonNetwork.Instantiate(botResourceName, botSpawnWaypoint.transform.position, botSpawnWaypoint.transform.rotation, 0);
 			((MonoBehaviour)botGO.GetComponent("BotController")).enabled = true;
 			botGO.GetComponent<BotController>().aggroRange = (int)PhotonNetwork.room.customProperties["ai"];
-		}
+		//}
 
 	}
 
