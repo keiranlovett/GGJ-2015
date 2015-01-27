@@ -28,7 +28,7 @@ Gameplay Trailer and Playthrough [Youtube](https://www.youtube.com/watch?v=tN-8s
 
 <iframe src="//www.youtube.com/embed/tN-8sHX5130" frameborder="0" allowfullscreen></iframe>
 
-## Game Play Images
+## Images
 
 download all screenshots & photos as ** [.zip (63 KB)](assets/images/images_gameplay.zip "Images zip") **
 
@@ -39,7 +39,8 @@ download all screenshots & photos as ** [.zip (63 KB)](assets/images/images_game
 [![A player is leading the monster to another player!](assets/images/game_image_05.png)](assets/images/game_image_06.png)
 [![Success! The monsters now chasing the other player.](assets/images/game_image_06.png)](assets/images/game_image_06.png)
 
-## Production Images
+
+## Images
 
 [![Title Screen - A group of four friends have joined up to play Trapped.](assets/images/production_image_01.jpg)](assets/images/production_image_01.jpg)
 [![Match Start Screen - The players are setting the map they want to play on](assets/images/production_image_02.jpg)](assets/images/production_image_02.jpg)
