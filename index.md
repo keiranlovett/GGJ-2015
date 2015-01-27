@@ -3,56 +3,29 @@
 ## Factsheet
 
 **Developer:**  
-Company Name
+SCAD HK Game Designers
 
 **Founding date:**  
 January 1, 2015
 
-**Website:**  
-[companydomain.com][homepage]
-
-**Press / Business contact:**  
-[press-contact@company.com][contact]
-
-**Social:**  
-[twitter.com/companyname][twitter]  
-[facebook.com/companyname][facebook]  
-[Skype](callto:companyskypename)
-
 **Releases:**  
 [exampleproject][example_project]
 
-**Address:**  
-Line 1  
-Line 2  
-Line 3
-
-**Phone:**  
-+00 (1) 22 33 44 55
-
 ## Description
 
-Stuff about the studio. Talk about yourselves in the third person!
+A team of game designers in Hong Kong. Students at the Savannah College of Art and Design.
 
-## History
+## Premise
 
-### Beginning
+TRAPPED is an intense cooperative multiplayer first person shooter game that engages users through thrilling situations and thought provoking cooperation and/or competition. Based on the Global Game Jam 2015 theme “What Do We Do Now?”, players are trapped in a maze with a monster and must help each other to survive. Where is the Monster? What do I do? Where do I go?
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-### Second subhed if you want it!
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## Projects
-
-* [exampleproject][example_project]
+A vicious monster is on the loose. It’s fast, it’s scary, and there’s no way to kill it! Players must work together to get through this thrilling chase by updating each other on the monster’s current position. Spectators (newcomers and players who have been caught by the monster) have a full view of the map, the players, and the monster. Will they use this knowledge for good and aid their fellow hunted or will they lead them into a lethal trap?
 
 ## Videos
 
-We have a trailer and this is it. [And this is what we called the link](https://www.youtube.com/watch?v=WB0yAm6iXEw "Gunhouse Trailer on Youtube")  
+Gameplay Trailer and Playthrough [Youtube](https://www.youtube.com/watch?v=tN-8sHX5130&feature=youtu.be "Trapped Trailer 1")  
 
-<iframe src="//www.youtube.com/embed/WB0yAm6iXEw" frameborder="0" allowfullscreen></iframe>
+<iframe src="//youtube.com/watch?v=tN-8sHX5130" frameborder="0" allowfullscreen></iframe>
 
 <br>
 
