@@ -58,11 +58,11 @@ download all screenshots & photos as ** [.zip (63 KB)](assets/images/images_game
 
 ## Additional Links
 
-**Company Link #1**  
-Link to your company, or some affiliate. Located [here](https://link)
+**Game Jam Website**  
+Official Game Jam Website. Located [here](http://globalgamejam.org/2015/games/trapped-0)
 
-**Company Link #2**  
-Another of these. See [here](https://link)
+**Game Design Document**  
+TRAPPED Official game design documents. Located [here](https://docs.google.com/document/d/1-ZcV4q8aVMHoK2bgoPf1ir2cb5mUK7Pd2Wk8Sy2BroY/pub)
 
 ## Team & Repeating Collaborator
 
@@ -83,6 +83,9 @@ Another of these. See [here](https://link)
 **Brian Tsui**
 
 ## Contact
+
+[Keiran Lovett] (mailto:iam@keiranlovett.com)
+9161 4497
 
 <!--- =====================================================================  -->
 <!--- Referenced links -->
