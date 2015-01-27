@@ -15,6 +15,12 @@ TRAPPED is an intense cooperative multiplayer first person shooter game that eng
 
 A vicious monster is on the loose. It’s fast, it’s scary, and there’s no way to kill it! Players must work together to get through this thrilling chase by updating each other on the monster’s current position. Spectators (newcomers and players who have been caught by the monster) have a full view of the map, the players, and the monster. Will they use this knowledge for good and aid their fellow hunted or will they lead them into a lethal trap?
 
+### Download
+
+[OSX](https://github.com/keiranlovett/GGJ-2015/releases/download/1/Trapped_Mac.zip)
+
+[PC](https://github.com/keiranlovett/GGJ-2015/releases/download/1/Trapped_PC.zip)
+
 ## Videos
 
 Gameplay Trailer and Playthrough [Youtube](https://www.youtube.com/watch?v=tN-8sHX5130&feature=youtu.be "Trapped Trailer 1")
