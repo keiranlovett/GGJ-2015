@@ -9,7 +9,8 @@ html {
 }
 
 body {
-  color: #c7dbea;
+  color: #444;
+  background-color: #c7dbea;
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 200px;
 
