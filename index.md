@@ -47,7 +47,13 @@ download all screenshots & photos as ** [.zip (63 KB)](assets/images/images_game
 [![Hunted! Player being chased by the AI robot!](assets/images/production_image_03.jpg)](assets/images/production_image_03.jpg)
 [![Dead! An already dead player helps the other team mates avoid the monster.](assets/images/production_image_04.jpg)](assets/images/production_image_04.jpg)
 [![A player is leading the monster to another player!](assets/images/production_image_05.jpg)](assets/images/production_image_05.jpg)
-
+[![Work](assets/images/production_image_06.jpg)](assets/images/production_image_06.jpg)
+[![Work.](assets/images/production_image_07.png)](assets/images/production_image_07.png)
+[![Work.](assets/images/production_image_08.png)](assets/images/production_image_08.png)
+[![Work](assets/images/production_image_09.png)](assets/images/production_image_09.png)
+[![Work.](assets/images/production_image_10.png)](assets/images/production_image_10.png)
+[![Work.](assets/images/production_image_11.png)](assets/images/production_image_11.png)
+[![Work.](assets/images/production_image_12.jpg)](assets/images/production_image_12.jpg)
 
 ## Logo & Icon
 
