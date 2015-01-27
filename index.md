@@ -32,14 +32,12 @@ Gameplay Trailer and Playthrough [Youtube](https://www.youtube.com/watch?v=tN-8s
 
 download all screenshots & photos as ** [.zip (63 KB)](assets/images/images.zip "Images zip") **
 
-Title Screen - A group of four friends have joined up to play Trapped.
 [![Title Screen - A group of four friends have joined up to play Trapped.](assets/images/image_01.png)](assets/images/image_01.png)
-Match Start Screen - The players are setting the map they want to play on
 [![Match Start Screen - The players are setting the map they want to play on](assets/images/image_02.png)](assets/images/image_02.png)
-Hunted! Player being chased by the AI robot!
 [![Hunted! Player being chased by the AI robot!](assets/images/image_03.png)](assets/images/image_03.png)
-Dead! An already dead player helps the other team mates avoid the monster.
 [![Dead! An already dead player helps the other team mates avoid the monster.](assets/images/image_04.png)](assets/images/image_04.png)
+[![A player is leading the monster to another player!](assets/images/image_05.png)](assets/images/image_06.png)
+[![Success! The monsters now chasing the other player.](assets/images/image_06.png)](assets/images/image_06.png)
 
 ## Logo & Icon
 
