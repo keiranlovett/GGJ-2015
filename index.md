@@ -51,25 +51,11 @@ download all screenshots & photos as ** [.zip (63 KB)](assets/images/images_game
 
 ## Logo & Icon
 
-download logo files as ** [.zip (7 KB)]( assets/images/logo.zip "Logo & Icon zip") **
-
 [![logo](assets/images/logo.png)](assets/images/logo.png "Logo")
-[![icon](assets/images/icon.png)](assets/images/icon.png "Icon")
 
 ## Awards & Recognition
 
-> * "Winner, XX awards." - *game name, December 13, 2013*
-> * "Nominee, YY awards." - *game name, December 13, 2013*
-
-## Selected Articles
-
-> * "Quote quote quote."  
--- *Person Name, [Website](http://www.website.com/)*
-
-
-> * "More quotes."  
--- *Person name, [Site](http://geocities.blog.com/)*
-
+> * "Winner, Hardcore Category Awards." Global Game Jam 2015, Sunday 25th January, 2015*
 
 ## Additional Links
 
