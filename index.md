@@ -23,7 +23,7 @@ A vicious monster is on the loose. It’s fast, it’s scary, and there’s no w
 
 ## Videos
 
-Gameplay Trailer and Playthrough [Youtube](https://www.youtube.com/watch?v=tN-8sHX5130&feature=youtu.be "Trapped Trailer 1")  
+Gameplay Trailer and Playthrough [Youtube](https://www.youtube.com/watch?v=tN-8sHX5130&feature=youtu.be "Trapped Trailer 1")
 
 <iframe src="//www.youtube.com/embed/tN-8sHX5130" frameborder="0" allowfullscreen></iframe>
 
