@@ -1,4 +1,4 @@
-# ![Company Name](assets/images/header.png)
+# ![SCAD HK Game Designers](assets/images/header.png)
 
 ## Factsheet
 
