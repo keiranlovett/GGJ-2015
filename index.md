@@ -25,11 +25,12 @@ A vicious monster is on the loose. It’s fast, it’s scary, and there’s no w
 
 Gameplay Trailer and Playthrough [Youtube](https://www.youtube.com/watch?v=tN-8sHX5130&feature=youtu.be "Trapped Trailer 1")  
 
-<iframe src="//youtube.com/watch?v=tN-8sHX5130" frameborder="0" allowfullscreen></iframe>
+<iframe src="//youtube.com/embed/tN-8sHX5130" frameborder="0" allowfullscreen></iframe>
 
 <br>
 
 This is some music from our games! [Yeah, you like it I think](http://www.youtube.com/watch?v=hxQAUADFCzw "Motohiro Kawashima live")
+
 <iframe src="//www.youtube.com/embed/hxQAUADFCzw" frameborder="0" allowfullscreen></iframe>
 
 ## Images
