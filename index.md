@@ -5,12 +5,6 @@
 **Developer:**  
 SCAD HK Game Designers
 
-**Founding date:**  
-January 1, 2015
-
-**Releases:**  
-[exampleproject][example_project]
-
 ## Description
 
 A team of game designers in Hong Kong. Students at the Savannah College of Art and Design.
@@ -72,45 +66,33 @@ Another of these. See [here](https://link)
 
 ## Team & Repeating Collaborator
 
-**Probably the founder's name goes here**  
-[Founder](https://link)
+**Keiran Lovett**
+[Game Designer, Developer, UI Designer](http://keiran.me/?ggj2015)
 
-**Another person's name**  
-[developer maybe](https://link)
+**Erick Witting** 
+[Game Designer, Developer, 3D Artist](http://blog.erickwitting.me/)
 
-**Another person, show em if you've got em**  
-[artist, who knows](https://link)
+**Mark Christian Calugay**
+[Game Designer, 3D Artist](http://about.me/mcalugay)
 
-**A fourth person**  
-[music, sound?](https://link)
+**Christie Yung**
+[Artist & Game Designer]
+
+**Richard Kim**
+**Justice Kawiya**
+**Brian Tsui**
 
 ## Contact
-
-**Inquiries**  
-[press-contact@company.com][contact]
-
-**Twitter**  
-[twitter.com/companyname][twitter]
-
-** Facebook**  
-[facebook.com/companyname][facebook]
-
-**Web**  
-[companydomain.com][homepage]
 
 <!--- =====================================================================  -->
 <!--- Referenced links -->
 
-[homepage]: http://companydomain.com "Company Name"
+[homepage]: http://keiranlovett.com "Keiran Lovett"
 
-[contact]: mailto:press-contact@company.com
+[contact]: mailto:iam@keiranlovett.com
 
 <!--- Social -->
 
-[twitter]: https://twitter.com/companyname
-[facebook]: https://facebook.com/companyname
-[skype]: callto:companyskypename
 
 <!--- Projects  -->
 
-[example_project]: projects/exampleproject/
