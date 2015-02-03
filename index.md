@@ -17,9 +17,9 @@ A vicious monster is on the loose. It’s fast, it’s scary, and there’s no w
 
 ### Download
 
-[OSX](https://github.com/keiranlovett/GGJ-2015/releases/download/1/Trapped_Mac.zip)
+[OSX](https://github.com/keiranlovett/GGJ-2015/releases/download/1/Trapped.Demo.OSX.zip)
 
-[PC](https://github.com/keiranlovett/GGJ-2015/releases/download/1/Trapped_PC.zip)
+[PC](https://github.com/keiranlovett/GGJ-2015/releases/download/1/Trapped.Demo.PC.zip)
 
 ## Videos
 
